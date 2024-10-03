@@ -8,8 +8,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { setResBody } from './redux/resBodySlice';
 
 function App() {
-  const[method,setMethod]=useState('GET')
-  const[url,setUrl]=useState('')
+  const[method,setMethod]=useState('POST')
+  const[url,setUrl]=useState('https://jsonplaceholder.typicode.com/posts')
   const {data}=useSelector(state=>state.reqbody)
   const dispatch=useDispatch()
   const handleSubmit=()=>{

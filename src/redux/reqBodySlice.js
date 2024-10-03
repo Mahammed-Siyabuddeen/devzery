@@ -4,7 +4,11 @@ import { createSlice } from '@reduxjs/toolkit';
 const reqBodySlice = createSlice({
   name: 'reqbody',
   initialState: {
-    data:'fd'
+    data:`{
+  "title":"siy",
+  "body":"mia",
+  "useID":"69"
+}`
   },
   reducers: {
     changeBody: (state,action) => {
