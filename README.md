@@ -1,7 +1,8 @@
-# pre requisite
+## pre requisite
  node v20
-# link
-# local installation
+## link
+https://devzery.netlify.app
+## local installation
 npm i
 npm start
 
